@@ -1,6 +1,6 @@
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./pushnotification-6929c-firebase-adminsdk-gmxmw-284a4d6e53.json");
+var serviceAccount = require("YOUR_JSON_FILE_PATH");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),

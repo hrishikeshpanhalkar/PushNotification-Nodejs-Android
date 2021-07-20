@@ -9,4 +9,9 @@ III) Download json file from firebase project.<br>
   b) add that file path in server.js file.<br>
 IV) Run the following command to make sure that notification is send from node js to firebase. You will get following output:<br>
 <img src="images/ss4.JPG"><br>
-V) 
+V) Create android project, give name to project (here PushNotificationClient) and connect that project to firebase.<br>
+VI) To connect firebase, Open android studio -> Tools -> firebase -> search Cloud messaging -> click on connect to firebase and select your project in browser.<br>
+VII) next step is to add cloud messaging dependancy to your project.<br>
+<img src="images/ss1.jpeg" height=600 width=300>
+<img src="images/ss2.jpeg" height=600 width=300>
+<img src="images/ss3.jpeg" height=600 width=300>
